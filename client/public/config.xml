@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.bententech.tracon" android-versionCode="62" ios-CFBundleVersion="1.0.60" version="1.0.60" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+	<name>Trac-On</name>
+	<description>
+		Trac-On
+	</description>
+	<preference name="fullscreen" value="false"/>
+	<preference name="orientation" value="all"/>
+	<preference name="android-build-tool" value="gradle"/>
+	<preference name="DisallowOverscroll" value="true"/>
+	<icon src="img/icons/tracon.png" />
+	<icon src="img/icons/icon-180.png" width="180" height="180"/>
+	<icon src="img/icons/icon-60.png" width="60" height="60"/>
+	<icon src="img/icons/icon-120.png" width="120" height="120"/>
+	<icon src="img/icons/icon-76.png" width="76" height="76"/>
+	<icon src="img/icons/icon-152.png" width="152" height="152"/>
+	
+	<icon src="img/icons/icon-57.png" width="57" height="57"/>
+	<icon src="img/icons/icon-114.png" width="114" height="114"/>
+	<icon src="img/icons/icon-72.png" width="72" height="72"/>
+	<icon src="img/icons/icon-144.png" width="144" height="144"/>
+
+	<icon src="images/icons/icon-40.png" width="40" height="40"/>
+	<icon src="images/icons/icon-80.png" width="80" height="80"/>
+	<icon src="images/icons/icon-29.png" width="29" height="29"/>
+	<icon src="images/icons/icon-58.png" width="58" height="58"/>
+	<icon src="images/icons/icon-50.png" width="50" height="50"/>
+	<icon src="images/icons/icon-100.png" width="100" height="100"/>
+
+	<icon src="img/icons/icon-36.png" platform="android" qualifier="ldpi" />
+	<icon src="img/icons/icon-48.png" platform="android" qualifier="mdpi" />
+	<icon src="img/icons/icon-72.png" platform="android" qualifier="hdpi" />
+	<icon src="img/icons/icon-96.png" platform="android" qualifier="xhdpi" />
+
+	<splash src="img/icons/screen-iphone-landscape.png"/>
+	<splash src="img/icons/screen-iphone-landscape-736h" platform="ios" width="2208" height="1242"/>
+	<splash src="img/icons/screen-ipad-landscape.png" platform="ios" width="1024" height="768"/>
+	<splash src="img/icons/screen-ipad-landscape-2x.png" platform="ios" width="2048" height="1536"/>
+	<splash src="img/icons/screen-iphone-portrait.png" platform="ios" width="320" height="480"/>
+	<splash src="img/icons/screen-iphone-portrait-2x.png" platform="ios" width="640" height="960"/>
+	<splash src="img/icons/screen-iphone-portrait-568h-2x.png" platform="ios" width="640" height="1136"/>
+	<splash src="img/icons/screen-iphone-portrait-667h.png" platform="ios" width="750" height="1334"/>
+	<splash src="img/icons/screen-iphone-portrait-736h.png" platform="ios" width="1242" height="2208"/>
+	<splash src="img/icons/screen-ipad-portrait.png" platform="ios" width="768" height="1024"/>
+	<splash src="img/icons/screen-ipad-portrait-2x.png" platform="ios" width="1536" height="2048"/>
+
+	<splash src="img/icons/screen-ldpi-portrait.png" platform="android" qualifier="ldpi" />
+	<splash src="img/icons/screen-mdpi-portrait.png" platform="android" qualifier="mdpi" />
+	<splash src="img/icons/screen-hdpi-portrait.png" platform="android" qualifier="hdpi" />
+	<splash src="img/icons/screen-xhdpi-portrait.png" platform="android" qualifier="xhdpi" />
+
+	<content src="index.html"/>
+	<allow-intent href="http://*/*"/>
+	<allow-intent href="https://*/*"/>
+	<allow-intent href="tel:*"/>
+	<allow-intent href="sms:*"/>
+	<allow-intent href="mailto:*"/>
+	<allow-intent href="geo:*"/>
+	<allow-intent href="maps:*"/>
+	<plugin name="cordova-plugin-app-version" source="npm"/>
+	<plugin name="org.apache.cordova.statusbar" source="npm"/>
+	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+	<gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+	<plugin name="cordova-plugin-file" spec="~4.3.3" source="npm"/>
+	<plugin name="cordova-plugin-inappbrowser" source="npm"/>
+	<plugin name="cordova-plugin-talk-to-me-cordova" spec="https://github.com/macdonst/SpeechSynthesisPlugin" />
+	<platform name="android">
+		<preference name="AndroidPersistentFileLocation" value="Compatibility"/>
+		<allow-intent href="market:*"/>
+	</platform>
+	<platform name="ios">
+		<preference name="StatusBarOverlaysWebView" value="false"/>
+		<preference name="StatusBarBackgroundColor" value="transparent"/>
+		<preference name="iosPersistentFileLocation" value="Compatibility"/>
+		<allow-intent href="itms:*"/>
+		<allow-intent href="itms-apps:*"/>
+	</platform>
+	<allow-navigation href="*" />
+	<access origin="*"/>
+</widget>

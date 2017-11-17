@@ -63,7 +63,7 @@ module.exports = {
     },
 
     postError(data) {
-        fetch("http://exceptionbrowser.durlabhcomputers.com/ExceptionHandler.ashx?MachineName=TracOn&DateTime=" + moment().format('MM/DD/YYYY hh:mm:ss a') + "&DateTimeUTC=" + moment.utc().format('MM/DD/YYYY hh:mm:ss a'), {
+        fetch("http://SomeErrorHandlingService", {
             method: 'POST',
             body: this.getFormData(data)
         })

@@ -137,16 +137,16 @@ module.exports = function (app, passport) {
 							let transporter = nodemailer.createTransport({
 								service: 'gmail',
 								auth: {
-									user: 'trac_on@bententech.com',
-									pass: 'Tarzan@2016'
+									user: 'user@demo.com',
+									pass: 'demo@2018'
 								}
 							});
 
 							// setup email data with unicode symbols
 							let mailOptions = {
-								from: '"Trac On - Password Recovery "<trac-on@durlabhcomputers.com>', // sender address
+								from: '"Password Recovery "<password@demo.com>', // sender address
 								to: email, // list of receivers
-								subject: 'Trac On - Reset password', // Subject line
+								subject: 'Reset password', // Subject line
 								text: 'Token for reset password is:', // plain text body
 								html: '<b>Token for reset password is: </b>' + guidValue // html body
 							};

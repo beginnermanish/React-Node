@@ -5,7 +5,7 @@ var request = require('request');
 function PostData(data, cb) {
     // Build the post string from an object
     request.post({
-        url: 'http://exceptionbrowser.durlabhcomputers.com/ExceptionHandler.ashx',
+        url: 'http://SomeErrorHandlingService',
         form: data,
         json: true,
         headers: {

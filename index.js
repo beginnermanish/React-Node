@@ -8,7 +8,7 @@ require('./server/config/passport')(passport); // pass passport for configuratio
 
 function postData(data, cb) {
 	request.post({
-		url: 'http://exceptionbrowser.durlabhcomputers.com/ExceptionHandler.ashx',
+		url: 'http://SomeErrorHandlingService',
 		form: data,
 		json: true,
 		headers: {

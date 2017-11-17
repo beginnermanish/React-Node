@@ -78,12 +78,12 @@ var Navigation = React.createClass({
                             <div className="dropdown profile-element">
                                 <a className="dropdown-toggle">
                                     <span className="clear">
-                                        <span className="block m-t-xs"> <strong className="font-bold">TRAC-ON</strong></span>
+                                        <span className="block m-t-xs"> <strong className="font-bold">Demo</strong></span>
                                     </span>
                                 </a>
                             </div>
                             <div className="logo-element">
-                                Trac On
+                                Demo
                             </div>
                         </li>
                         {

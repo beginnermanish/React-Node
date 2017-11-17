@@ -1,5 +1,5 @@
 'use strict';
-const commonTitle = 'Trac On - ';
+const commonTitle = 'Demo - ';
 
 module.exports = {
     Login: commonTitle + 'Login',

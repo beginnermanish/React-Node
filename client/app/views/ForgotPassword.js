@@ -111,7 +111,7 @@ class ForgotPassword extends Component {
                 <div>
                     <Loader loaded={!this.state.isLoading}></Loader>
                     <div>
-                        <h1 className="logo-name">TRAC-ON</h1>
+                        <h1 className="logo-name">Demo</h1>
                     </div>
                     <div>
                         <i className="fa fa-lock fa-4x"></i><h2>Forgot Password</h2>

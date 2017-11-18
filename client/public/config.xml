@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.bententech.tracon" android-versionCode="62" ios-CFBundleVersion="1.0.60" version="1.0.60" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-	<name>Trac-On</name>
+	<name>Demo</name>
 	<description>
-		Trac-On
+		Demo
 	</description>
 	<preference name="fullscreen" value="false"/>
 	<preference name="orientation" value="all"/>

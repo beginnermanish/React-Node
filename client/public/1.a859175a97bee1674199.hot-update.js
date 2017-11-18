@@ -122,7 +122,7 @@ webpackHotUpdate(1,{
 	                                        _react2.default.createElement(
 	                                            'strong',
 	                                            { className: 'font-bold' },
-	                                            'TRAC-ON'
+	                                            'Demo'
 	                                        )
 	                                    )
 	                                )

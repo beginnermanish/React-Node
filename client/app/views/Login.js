@@ -92,7 +92,7 @@ class Login extends Component {
                 <div>
                     <Loader loaded={!this.state.isLoading}></Loader>
                     <div>
-                        <h1 className="logo-name">TRAC-ON</h1>
+                        <h1 className="logo-name">Demo</h1>
                     </div>
                     <form className="m-t" role="form" action="index.html">
                         <div className="form-group">
